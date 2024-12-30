@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <!-- External Css linking -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Creating heading  -->
+<div class="box">
+     <h1 id="main-heading">To-do App</h1>
+
+    <!-- Container of input and add button -->
+
+    <div class="grid-container">
+       <input id="todo-input" type="text" placeholder="Enter ToDo here">
+       <input id="todo-date" type="date">
+       <input id="todo-time" type="time">
+       <button id="todo-btn" onclick="addTodo()">Add</button>
+   </div>
+
+   <!-- Container of displaying list data -->
+
+    <div class="todo-container grid-container"></div>
+</div>   
+
+
+<!-- GSAP -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <!-- Linking of External JS file -->
+    <script src="index.js"></script>
+</body>
+</html>

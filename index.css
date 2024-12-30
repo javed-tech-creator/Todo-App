@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+    background-color: antiquewhite;
+    background-image: url("https://plus.unsplash.com/premium_photo-1683842189634-df5b18bf9e9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-size:100% ; 
+    display: flex;
+    justify-content: center;
+    /* height: 200vh; */
+    background-repeat: no-repeat;
+  
+
+}
+#main-heading{
+   text-align: center;
+   color:brown;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 35% 31% 23% 21%;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 20px;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+
+#todo-input,#todo-date,#todo-time{
+    font-size: 15px;
+    padding: 10px 5px;
+
+}
+
+.btn-delete,#todo-btn{
+    background-color: rgb(87,4,4);
+    color: white;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+
+}
+
+#todo-btn{
+    background-color: green;
+}
+.box{
+    margin-top: 20px;
+    padding: 0px 60px;
+    width: 40vw;
+    border: 2px solid bisque;
+    min-height: 50vh;
+    backdrop-filter: blur(25px);
+}
+
